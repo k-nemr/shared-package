@@ -1,0 +1,17 @@
+{
+  "name": "shared-package",
+  "version": "0.0.1",
+  "description": "Shared Package is part of a POC to share common NodeJS code across microservices.",
+  "author": "k-nemr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:k-nemr/shared-package.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "get-message": "node -e 'require(\"./shared-code-a\").getMessage()'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
