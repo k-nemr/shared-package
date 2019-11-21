@@ -10,8 +10,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "get-message": "node -e 'require(\"./shared-code-a\").getMessage()'"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+    "get-message": "node -e 'require(\"shared-code\").getMessage()'"
+  }
 }
